@@ -1,0 +1,81 @@
+﻿S. No,Species name,SwissProt ID,Protein name,Gene name,Source,No of amino acids,Mol. wt,Subcellular location,Mutagenesis,PTM,Modified residue,Structure (Yes/No),Domain name,Sequence (FASTA)
+1,Hirudo medicinalis (Medicinal leech),P01050,Hirudin variant-1,-,P01050,65,6970,Secreted,10,Glycosylation,Yes,Yes,-,Download
+2,Hirudo medicinalis (Medicinal leech),Q25092,Laminin subunit B,-,Q25092,400,43262,"Secreted, extracellular space, extracellular matrix",-,-,-,Yes,-,Download
+3,Hirudo medicinalis (Medicinal leech),P28510,Hirudin-3B,-,P28510,65,7026,Secreted,-,Glycosylation,Yes,Yes,-,Download
+4,Hirudo medicinalis (Medicinal leech),P21523,Homeobox protein LOX2,LOX2,P21523,118,13793,Nucleus,-,-,-,Yes,-,Download
+5,Hirudo medicinalis (Medicinal leech),P28504,Hirudin-2,-,P28504,65,6987,Secreted,-,Glycosylation,Yes,Yes,-,Download
+6,Hirudo medicinalis (Medicinal leech),P28508,Hirudin-3A,-,P28508,65,6973,Secreted,-,Glycosylation,Yes,Yes,-,Download
+7,Hirudo medicinalis (Medicinal leech),P28511,Hirudin-3B',-,P28511,65,6968,Secreted,-,Glycosylation,Yes,Yes,-,Download
+8,Hirudo medicinalis (Medicinal leech),P09944,Hirudin-PA,-,P09944,66,7026,Secreted,-,Glycosylation,Yes,Yes,-,Download
+9,Hirudo medicinalis (Medicinal leech),P28505,Hirudin-2',-,P28505,65,6987,Secreted,-,Glycosylation,Yes,Yes,-,Download
+10,Hirudo medicinalis (Medicinal leech),P28506,Hirudin-2B,-,P28506,65,6986,Secreted,-,Glycosylation,Yes,Yes,-,Download
+11,Hirudo medicinalis (Medicinal leech),P80424,Leech-derived tryptase inhibitor C,-,P80424,46,4744,Extracellular space,-,-,-,Yes,-,Download
+12,Hirudo medicinalis (Medicinal leech),P81511,Metallocarboxypeptidase inhibitor,-,P81511,81,9068,-,-,-,-,Yes,-,Download
+13,Hirudo medicinalis (Medicinal leech),P09945,Hirudin variant-2,-,P09945,72,7571,Secreted,-,Glycosylation,Yes,Yes,-,Download
+14,Hirudo medicinalis (Medicinal leech),P28509,Hirudin-3,-,P28509,65,7027,Secreted,-,Glycosylation,Yes,Yes,-,Download
+15,Hirudo medicinalis (Medicinal leech),P80302,Hirustasin,-,P80302,55,5878,Secreted,-,-,-,Yes,-,Download
+16,Hirudo medicinalis (Medicinal leech),P82107,Bdellastasin,-,P82107,59,6343,Secreted,-,-,-,Yes,-,Download
+17,Hirudo medicinalis (Medicinal leech),P28503,Hirudin-2A,-,P28503,65,6987,Secreted,-,Glycosylation,Yes,Yes,-,Download
+18,Hirudo medicinalis (Medicinal leech),P28507,Hirudin-3A,-,P28507,65,7028,Secreted,-,Glycosylation,Yes,Yes,-,Download
+19,Hirudo medicinalis (Medicinal leech),Q8I6U3,Complexin-1,cpx1,Q8I6U3,144,15987,Membrane ; Lipid-anchor,-,-,Yes,Yes,-,Download
+20,Hirudo medicinalis (Medicinal leech),A8I0L8,Theromacin,-,A8I0L8,75,8453,Secreted,-,-,-,Yes,-,Download
+21,Hirudo medicinalis (Medicinal leech),Q674M7,Neurohemerythrin,-,Q674M7,120,13814,-,-,-,-,Yes,-,Download
+22,Hirudo medicinalis (Medicinal leech),P09865,Bdellin B-3,-,P09865,56,6141,-,-,-,-,Yes,-,Download
+23,Hirudo medicinalis (Medicinal leech),P42563,FMRFamide-like neuropeptide YMRF-amide,-,P42563,4,616,Secreted,-,-,Yes,No,-,Download
+24,Hirudo medicinalis (Medicinal leech),P42564,FMRFamide-like neuropeptide GGKYMRF-amide,-,P42564,7,858,Secreted,-,-,Yes,No,-,Download
+25,Hirudo medicinalis (Medicinal leech),P01051,Eglin C,-,P01051,70,8091,-,-,-,-,Yes,-,Download
+26,Hirudo medicinalis (Medicinal leech),P42562,FMRFamide-like neuropeptide YLRF-amide,-,P42562,4,598,Secreted,-,-,Yes,No,-,Download
+27,Hirudo medicinalis (Medicinal leech),P69147,FMRFamide,-,P69147,4,600,Secreted,-,-,Yes,No,-,Download
+28,Hirudo medicinalis (Medicinal leech),A8V0B3,Neuromacin,-,A8V0B3,82,9315,Secreted,-,-,-,Yes,-,Download
+29,Hirudo medicinalis (Medicinal leech),P28502,Hirudin-1A,-,P28502,17,1877,Secreted,-,Sulfation,-,Yes,-,Download
+30,Hirudo medicinalis (Medicinal leech),P69137,FLRFamide,-,P69137,4,582,Secreted,-,Amidation,Yes,No,-,Download
+31,Placobdella ornata (Turtle leech),P25509,Ornatin-A2,-,P25509,41,"4,455",Secreted,-,-,-,Yes,-,Download
+32,Placobdella ornata (Turtle leech),P25510,Ornatin-A3,-,P25510,41,"4,386",Secreted,-,-,-,Yes,-,Download
+33,Placobdella ornata (Turtle leech),P25511,Ornatin-B,-,P25511,52,"5,873",Secreted,-,-,-,Yes,-,Download
+34,Placobdella ornata (Turtle leech),P25512,Ornatin-C,-,P25512,52,"5,845",Secreted,-,-,-,Yes,-,Download
+35,Placobdella ornata (Turtle leech),P25513,Ornatin-D,-,P25513,28,"3,361",Secreted,-,-,-,Yes,-,Download
+36,Placobdella ornata (Turtle leech),P25514,Ornatin-E,-,P25514,50,"5,728",Secreted,-,-,-,Yes,-,Download
+37,Theromyzon tessulatum (Duck leech),Q6Q4G4,Angiotensin-converting enzyme,-,Q6Q4G4,616,"71,481","Secreted, extracellular space",-,Glycosylation,#VALUE!,Yes,Peptidase M2,Download
+38,Theromyzon tessulatum (Duck leech),P80594,Egg-laying-like hormone,-,P80594,36,"4,290",-,-,-,Lysine amide - 36,Yes,-,Download
+39,Theromyzon tessulatum (Duck leech),Q6T6C2,Theromacin,-,Q6T6C2,97,,Secreted,,Disulfide bond,-,Yes,Signal,Download
+40,Theromyzon tessulatum (Duck leech),Q6T6C1,Theromyzin,-,Q6T6C1,107,"12,221",Secreted,,-,-,Yes,-,Download
+41,Theromyzon tessulatum (Duck leech),Q9NBW4,Therostasin,-,Q9NBW4,101,"10,951",Secreted,,-,-,Yes,"Antistasin-like 1, Antistasin-like 2",Download
+42,Theromyzon tessulatum (Duck leech),P82354,Theromin,-,P82354,67,"7,257",Secreted,-,Disulfide bond,-,Yes,Antistasin-like,Download
+43,Theromyzon tessulatum (Duck leech),P41989,Melanotropin gamma,-,P41989,11,"1,486",Secreted,-,Amidation,Phenylalanine amide,-,-,Download
+44,Theromyzon tessulatum (Duck leech),P81064,Cytin chain B,-,P81064,22,"2,504",-,-,Disulfide bond,-,Yes,-,Download
+45,Theromyzon tessulatum (Duck leech),P80155,Ovohemerythrin,-,P80155,18,"2,368",Secreted,-,-,-,Yes,-,Download
+46,Theromyzon tessulatum (Duck leech),P81063,Cytin chain A,-,P81063,43,"4,934",-,-,Disulfide bond,-,Yes,-,Download
+47,Theromyzon tessulatum (Duck leech),Q9GYZ9,Myohemerythrin,-,Q9GYZ9,120,"14,119",Cytoplasm,-,-,-,Yes,-,Download
+48,Theromyzon tessulatum (Duck leech),Q10757,Angiotensin,-,Q10757,14,"1,764",-,-,-,-,-,-,Download
+49,Haemadipsa sylvestris (Indian leech),A0A2L1DGG0,Peptide HSTX-I,-,A0A2L1DGG0,49,"5,409",Secreted,-,"Amidation, disulfide bond",Isoleucine amide,Yes,-,Download
+50,Haemadipsa sylvestris (Indian leech),P0DUG5,Peptide HSTX-II,-,P0DUG5,47,"5,015",Secreted,-,"Amidation, disulfide bond",Phenylalanine amide,Yes,-,Download
+51,Haemadipsa sylvestris (Indian leech),P0DUG6,Peptide HSTX-III,-,P0DUG6,48,"5,223",Secreted,-,"Amidation, disulfide bond",Tyrosine amide,Yes,-,Download
+52,Haemadipsa sylvestris (Indian leech),P0DUG7,Peptide HSTX-IV,-,P0DUG7,49,"5,423",Secreted,-,"Amidation, disulfide bond",Leucine amide,Yes,-,Download
+53,Haemadipsa sylvestris (Indian leech),P0DUG8,Peptide HSTX-V,-,P0DUG8,48,"5,193",Secreted,-,"Amidation, disulfide bond",Methionine amide,Yes,-,Download
+54,Haemadipsa sylvestris (Indian leech),P0DUG9,Peptide HSTX-VI,-,P0DUG9,48,"5,310",Secreted,-,"Amidation, disulfide bond",Isoleucine amide,Yes,-,Download
+55,Haemadipsa sylvestris (Indian leech),P0DUH0,Peptide HSTX-VII,-,P0DUH0,48,"5,194",Secreted,-,"Amidation, disulfide bond",Isoleucine amide,Yes,-,Download
+56,Haemadipsa sylvestris (Indian leech),P0DUH1,Peptide HSTX-VIII,-,P0DUH1,48,"5,173",Secreted,-,"Amidation, disulfide bond",Leucine amide,Yes,-,Download
+57,Haemadipsa sylvestris (Indian leech),P0DUH2,Peptide HSTX-IX,-,P0DUH2,47,"4,909",Secreted,-,"Amidation, disulfide bond",Isoleucine amide,Yes,-,Download
+58,Haemadipsa sylvestris (Indian leech),P0DUH3,Peptide HSTX-X,-,P0DUH3,52,"5,652",Secreted,-,"Amidation, disulfide bond",Proline amide,Yes,-,Download
+59,Haemadipsa sylvestris (Indian leech),P0DUH4,Peptide HSTX-XI,-,P0DUH4,49,"5,345",Secreted,-,"Amidation, disulfide bond",Leucine amide,Yes,-,Download
+60,Hirudinaria manillensis (Asian medical leech) (Poecilobdella manillensis),P26631,Hirullin-P18,-,P26631,62,"6,693",Secreted,-,"Glycosylation, Disulfide bond",-,No,-,Download
+61,Hirudinaria manillensis (Asian medical leech) (Poecilobdella manillensis),P81492,Hirudin-HM2,-,P81492,84,"9,004",Secreted,-,"Glycosylation, Disulfide bond",-,No,-,Download
+62,Hirudinaria manillensis (Asian medical leech) (Poecilobdella manillensis),P28512,Hirudin-P6,-,P28512,63,"6,977",Secreted,-,"Glycosylation, Disulfide bond",Sulfotyrosine,Yes,-,Download
+63,Hirudinaria manillensis (Asian medical leech) (Poecilobdella manillensis),Q07558,Hirudin-HM1,-,Q07558,84,"8,934",Secreted,-,"Glycosylation, Disulfide bond",-,Yes,-,Download
+64,Helobdella triserialis (Leech),P17138,Homeobox protein HTR-A2,-,P17138,60,"7,616",Nucleus,-,-,-,Yes,-,Download
+65,Helobdella triserialis (Leech),P23397,Homeobox protein Ht-En,HT-EN,P23397,98,"11,143",Nucleus,-,-,-,Yes,-,Download
+66,Helobdella triserialis (Leech),P42584,Homeobox protein LOX10,LOX10,P42584,184,"20,849",Nucleus,-,-,-,Yes,-,Download
+67,Hirudo nipponia (Korean blood-sucking leech),P46443,Guamerin,-,P46443,57,"6,123",Secreted,Yes,Disulfide bond,-,Yes,Antistasin-like,Download
+68,Hirudo nipponia (Korean blood-sucking leech),P81499,Piguamerin,-,P81499,48,"5,101",Secreted,-,Disulfide bond,-,Yes,Antistasin-like,Download
+69,Hirudo nipponia (Korean blood-sucking leech),X4Y2L4,Hyaluronoglucuronidase,-,X4Y2L4,489,"55,090",Secreted,-,-,-,Yes,-,Download
+70,Haementeria depressa (Leech),P86681,Leech factor Xa inhibitor,-,P86681,90,"10,575",Secreted,-,-,-,No,-,Download
+71,Haementeria depressa (Leech),P86682,Hementerin,-,P86682,30,"3,513",Secreted,-,-,-,No,-,Download
+72,Haementeria ghilianii (Amazon leech),Q7M3P9,Hementin,-,Q7M3P9,39,"4,286",Secreted,-,-,-,No,-,Download
+73,Haementeria ghilianii (Amazon leech),P16242,Ghilanten,-,P16242,119,"13,318",Secreted,-,Disulfide bond,-,Yes,"Antistasin-like 1,Antistasin-like 2",Download
+74,Haementeria officinalis (Mexican leech),P15358,Antistasin,-,P15358,136,"15,225",Secreted,-,Disulfide bond,Pyrrolidone carboxylic acid,Yes,"Antistasin-like 1,Antistasin-like 2",Download
+75,Haementeria officinalis (Mexican leech),Q01747,Leech anti-platelet protein,-,Q01747,147,"15,908",Secreted,-,Disulfide bond,-,Yes,-,Download
+76,Macrobdella decora (North American leech),Q27701,Anhydrosialidase,-,Q27701,762,"82,982",Secreted,-,-,-,Yes,-,Download
+77,Macrobdella decora (North American leech),P17350,Decorsin,-,P17350,39,"4,384",Secreted,-,-,-,Yes,High affinity binding domain,Download
+78,Haemopis marmorata (Green horse leech),Q25088,Calsensin,-,Q25088,83,"9,102",Cytoplasm,-,-,-,Yes,"EF-hand 1, EF-hand 2",Download
+79,Helobdella robusta (Californian leech),Q01622,Homeobox protein LOX2,LOX2,Q01622,429,"47,016",Nucleus,-,-,-,Yes,-,Download
+80,Poecilobdella viridis (Indian freshwater leech),P84590,Hirudin,-,P84590,63,"6,657",Secreted,-,"Glycosylation, Sulfation, Disulfide bond",Sulfotyrosine,Yes,-,Download
