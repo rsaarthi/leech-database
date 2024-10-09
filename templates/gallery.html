@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block title %}Gallery - Leech Database{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <h2>Gallery</h2>
+    <p>Explore some images related to leech protein studies.</p>
+
+    <div class="row">
+        <!-- First image -->
+        <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/leech1.jpg') }}" alt="Leech 1" class="img-fluid rounded">
+            <p class="text-center mt-2">Leech in natural habitat</p>
+        </div>
+
+        <!-- Second image -->
+        <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/leech2.jpg') }}" alt="Leech 2" class="img-fluid rounded">
+            <p class="text-center mt-2">Close-up of a leech</p>
+        </div>
+
+        <!-- Third image -->
+        <div class="col-md-4">
+            <img src="{{ url_for('static', filename='images/leech3.jpg') }}" alt="Leech 3" class="img-fluid rounded">
+            <p class="text-center mt-2">Leech used in medicinal research</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

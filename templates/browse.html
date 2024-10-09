@@ -1,55 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Leech Database{% endblock %}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            padding: 20px;
-            background-color: #f8f9fa;
-        }
+{% extends "base.html" %}
 
-        /* Background image with 30% opacity */
-        body {
-          background-image: url('');
-          background-size: cover;
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-        }
+{% block title %}Browse Leech Proteins - Leech Database{% endblock %}
 
-        .overlay {
-          background-color: rgba(255, 255, 255, 0.7);
-          padding: 20px;
-        }
-    </style>
-</head>
-<body>
-
-<div class="overlay">
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-      <a href="/" class="w3-bar-item w3-button">The Leech Database <b>Ldb</b></a>
-    </div>
-  </div>
-
-  <!-- Header and Intro -->
-  <header class="text-center mt-4">
-    <h1 class="w3-xxlarge"><span class="w3-padding w3-black w3-opacity-min">The Leech Database</span></h1>
-    <p>The Leech Database (Ldb) is an online resource dedicated to providing experimentally verified information about proteins found in various species of leech.</p>
-  </header>
-
-  <!-- Marquee -->
-  <marquee scrollamount="10" width="800" direction="left" scrolldelay="200">
-    <font size="2">
-      Sources: UniProtKB === Developed by: Department of Computational Biology, Institute of Bioinformatics, Saveetha Institute of Medical and Technical Sciences
-    </font>
-  </marquee>
-
-  <!-- Main content block -->
-
+{% block content %}
 <div class="container mt-5">
     <h2>Browse Leech Proteins</h2>
     <form action="/browse" method="POST" class="mb-4">
@@ -62,31 +15,15 @@
                 </select>
             </div>
             <div class="col-md-6 d-flex align-items-end">
-                <button type="submit" class="btn btn-primary me-2">Browse Alphabetically</button>
-                <button type="submit" name="reverse" value="true" class="btn btn-secondary">Browse in Reverse</button>
+                <button type="submit" class="btn btn-primary me-2">A to Z</button>
+                <button type="submit" name="reverse" value="true" class="btn btn-secondary">Z to A</button>
             </div>
         </div>
     </form>
-<div class="table-responsive">
-    <p>For more details, check out the resources below:</p>
-    <ul>
-        <li><a href="https://www.uniprot.org/" target="_blank">UniProt Database</a></li>
-        <li><a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed Database</a></li>
-        <li><a href="https://www.ncbi.nlm.nih.gov/" target="_blank">NCBI Database</a></li>
-    </ul>
-    {{ tables|safe }}  <!-- The table with results is injected here -->
+
+    <div class="table-responsive">
+       
+        {{ tables|safe }}  <!-- The table with results is injected here -->
+    </div>
 </div>
-
-
-
-
-
-  <footer class="text-center mt-5">
-    <p>Total no. of Proteins: <b>80</b> | No. of species: <b>11</b></p>
-    <p><a href="https://uniprot.org" target="_blank">UniProtKB</a> | <a href="https://pubmed.ncbi.nlm.nih.gov/" target="_blank">PubMed</a> | <a href="#" target="_blank">About leeches</a></p>
-  </footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
+{% endblock %}
