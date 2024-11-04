@@ -1,6 +1,7 @@
 from flask import Flask, render_template, request, session, redirect, url_for, flash
 import os
 import pandas as pd
+import sqlite3
 
 # Initialize the Flask app
 app = Flask(__name__)
@@ -9,25 +10,31 @@ app.secret_key = os.urandom(24)  # Secret key for session handling
 # Load your dataset (adjust the path as necessary)
 df = pd.read_excel('leech_data_table.xlsx', engine='openpyxl')
 
-# Visitor hit counter route
-@app.before_request
-def hit_counter():
-    # Track unique visitors using session
-    if 'visited' not in session:
-        session['visited'] = True
-        with open('counter.txt', 'r+') as f:
-            count = int(f.read())
-            count += 1
-            f.seek(0)
-            f.write(str(count))
 
-# Context processor to pass visitor count to all templates
-@app.context_processor
-def inject_visitor_count():
-    # Read the current count
-    with open('counter.txt', 'r') as f:
-        visitor_count = f.read()
-    return dict(visitor_count=visitor_count)
+
+# Initialize database connection
+def init_db():
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    # Create a table for visitor count if it doesn't exist
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS visitor_count (
+            id INTEGER PRIMARY KEY,
+            count INTEGER DEFAULT 0
+        )
+    ''')
+    # Initialize with one row if empty
+    cursor.execute('SELECT COUNT(*) FROM visitor_count')
+    if cursor.fetchone()[0] == 0:
+        cursor.execute('INSERT INTO visitor_count (count) VALUES (0)')
+        conn.commit()
+    conn.close()
+
+# Call this function at startup
+init_db()
+
+
+
 
 # Function to convert URLs to clickable 'Download' links
 def convert_hyperlinks_to_html(df):
@@ -40,7 +47,29 @@ def convert_hyperlinks_to_html(df):
 # Home page route
 @app.route('/')
 def home():
-    return render_template('home.html')  # Render the home.html page
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    # Increment the visitor count by 1
+    cursor.execute('UPDATE visitor_count SET count = count + 1 WHERE id = 1')
+    conn.commit()
+    # Fetch the updated count
+    cursor.execute('SELECT count FROM visitor_count WHERE id = 1')
+    visitor_count = cursor.fetchone()[0]
+    conn.close()
+    
+    # Pass the visitor count to the template
+    return render_template('home.html', visitor_count=visitor_count)
+
+# Context processor to make visitor count available to all templates
+@app.context_processor
+def inject_visitor_count():
+    conn = sqlite3.connect('database.db')
+    cursor = conn.cursor()
+    cursor.execute('SELECT count FROM visitor_count WHERE id = 1')
+    visitor_count = cursor.fetchone()[0]
+    conn.close()
+    return dict(visitor_count=visitor_count)
+
 
 # About page route
 @app.route('/about')
@@ -145,9 +174,5 @@ def search():
 
 # Run the Flask app
 if __name__ == '__main__':
-    # Initialize hit counter if not present
-    if not os.path.exists('counter.txt'):
-        with open('counter.txt', 'w') as f:
-            f.write('0')
-
+    
     app.run(debug=False, host='0.0.0.0')
